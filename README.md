@@ -9,13 +9,12 @@ A full-stack movie ticket booking platform where users can browse movies, pick s
 ## Features
  
 **For users**
-- Browse movies with a featured section and trailers
+- Browse now-showing movies with real-time data (posters, cast, synopsis, trailers) pulled live from the TMDB API
 - View detailed movie pages (cast, synopsis, showtimes)
 - Interactive seat-selection layout for booking
 - Secure payments via Stripe Checkout
 - Automatic seat release if payment isn't completed in time (prevents seats being held indefinitely)
 - Save favorite movies
-- View booking history ("My Bookings")
 - Authentication via Clerk
   
 **For admins**
@@ -29,7 +28,7 @@ A full-stack movie ticket booking platform where users can browse movies, pick s
 | Layer      | Technology                          |
 |------------|--------------------------------------|
 | Frontend   | React, Tailwind CSS, JavaScript      |
-| Backend    | Node.js, Express                     |
+| Backend    | Node.js, Express (RESTful API)                     |
 | Database   | MongoDB (Mongoose)                   |
 | Auth       | Clerk                                |
 | Payments   | Stripe (Checkout + Webhooks)         |
