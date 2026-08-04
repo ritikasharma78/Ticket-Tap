@@ -2,7 +2,7 @@
  
 A full-stack movie ticket booking platform where users can browse movies, pick seats, pay online, and manage their bookings — with a full admin dashboard to manage movies, showtimes, and bookings.
  
-**Live demo:** [ticket-tap-six.vercel.app](https://tickettap-movies.vercel.app/)
+**Live demo:** [https://tickettap-movies.vercel.app/](https://tickettap-movies.vercel.app/)
  
 ---
  
